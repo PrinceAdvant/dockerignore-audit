@@ -1,0 +1,14 @@
+[package]
+name = "dockerignore-audit"
+version = "0.1.0"
+edition = "2021"
+description = "Check a Docker build context against its .dockerignore: find secrets, Git history and dependency folders that would be sent to the daemon."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/dockerignore-audit"
+homepage = "https://peon.sh/blogs/reduce-docker-image-size"
+documentation = "https://docs.rs/dockerignore-audit"
+keywords = ["docker", "dockerignore", "build-context", "security", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
